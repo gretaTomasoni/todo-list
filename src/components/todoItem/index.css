@@ -1,0 +1,38 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(167, 167, 167);
+  padding: 20px 40px 20px 0;
+}
+
+.TodoItem_content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.TodoItem_emptyCircle {
+  color: blue;
+  cursor: pointer;
+}
+
+.fill {
+  fill: blue;
+}
+
+.done_element {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.TodoItem_deleteButton {
+  color: blue;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .TodoItem {
+    padding: 20px 20px 20px 0;
+  }
+}
